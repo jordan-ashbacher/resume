@@ -62,7 +62,6 @@ body {
 }
 
 #profile {
-	margin-bottom: 1rem;
 	padding: 1rem;
 }
 
@@ -70,7 +69,7 @@ body {
 	font-family: 'Lora', serif;
 	font-weight: bold;
 	font-size: 1.75rem;
-	margin: 1rem 0;
+	margin-bottom: 1rem;
 	color: #1b593c;
 }
 
@@ -81,16 +80,33 @@ body {
 	color: #262626;
 }
 
-.container-left {
+.resume-body {
 	display: flex;
 	flex-flow: row;
-	align-items: flex-start;
+}
+
+.container-left {
+	/* margin-right: 3rem; */
+	border-right: 2px solid #1b593c;
+	border-top: 2px solid #1b593c;
+	height: 99%;
+	margin-left: 1rem;
+	width: 33%;
+}
+
+.container-right {
+	padding-left: 1rem;
+	margin-right: 1rem;
+	border-top: 2px solid #1b593c;
+	width: 67%;
 }
 
 #skills {
-	width: 50%;
+	width: 100%;
 	/* border: 1px solid red; */
-	padding-left: 2rem;
+	padding: 0 1rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
 }
 
 .skills-list {
@@ -115,8 +131,8 @@ body {
 
 #references {
 	/* border: 1px solid green; */
-	width: 50%;
-	padding-right: 2rem;
+	width: 100%;
+	padding: 0 1rem;
 	/* margin-right: 1rem; */
 }
 
@@ -124,8 +140,9 @@ body {
 	line-height: 1.25;
 }
 
-.container-right {
-	padding: 1rem 2rem;
+#experience {
+	margin-top: 1rem;
+	margin-bottom: 2rem;
 }
 
 .experience-container {

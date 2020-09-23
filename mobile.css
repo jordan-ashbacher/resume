@@ -6,10 +6,6 @@ body {
 	justify-content: center;
 }
 
-a:hover {
-	color: #7e7b73;
-}
-
 .resume-container {
 	display: flex;
 	align-items: center;
@@ -18,9 +14,11 @@ a:hover {
 	width: 90vw;
 	/* border: 1px solid whitesmoke; */
 	max-width: 800px;
+	border: double #1b593c;
+	border-width: 4px;
 }
 
-.resume-header {
+#resume-header {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
@@ -32,7 +30,7 @@ a:hover {
 #name {
 	font-family: 'Lora', sans-serif;
 	font-weight: bold;
-	font-size: 4rem;
+	font-size: 3.5rem;
 	color: #1b593c;
 	width: 100%;
 	margin-top: 1rem;
@@ -52,8 +50,11 @@ a:hover {
 	font-weight: 700;
 }
 
+#profile {
+	padding: 1rem;
+}
+
 .profile-text {
-	margin: 1rem 1rem 0 1rem;
 	line-height: 1.25;
 }
 
@@ -72,6 +73,10 @@ a:hover {
 	color: #262626;
 }
 
+#skills {
+	padding: 1rem;
+}
+
 .skills-list {
 	list-style-type: circle;
 	margin-left: 2rem;
@@ -82,6 +87,10 @@ a:hover {
 	font-size: 1rem;
 	padding: .25rem;
 	color: #262626;
+}
+
+#references {
+	padding: 1rem;
 }
 
 .reference-container {
@@ -98,6 +107,10 @@ a:hover {
 
 .reference-container > p {
 	line-height: 1.25;
+}
+
+#experience {
+	padding: 1rem;
 }
 
 .experience-container {
@@ -120,10 +133,18 @@ a:hover {
 	color: #262626;
 }
 
+#education {
+	padding: 1rem;
+}
+
 .education-container {
 	margin-bottom: .75rem;
 }
 
 .education-info {
 	font-style: italic;
+}
+
+a:hover {
+	color: #7e7b73;
 }
