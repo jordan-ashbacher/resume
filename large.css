@@ -69,7 +69,7 @@ body {
 	font-family: 'Lora', serif;
 	font-weight: bold;
 	font-size: 1.75rem;
-	margin-bottom: 1rem;
+	margin-bottom: 1.25rem;
 	color: #1b593c;
 }
 
@@ -83,22 +83,25 @@ body {
 .resume-body {
 	display: flex;
 	flex-flow: row;
+	justify-content: center;
 }
 
 .container-left {
+	display: flex;
+	flex-flow: column;
+	text-align: right;
 	/* margin-right: 3rem; */
 	border-right: 2px solid #1b593c;
 	border-top: 2px solid #1b593c;
-	height: 99%;
-	margin-left: 1rem;
-	width: 33%;
+	height: 96%;
+	width: 30%;
 }
 
 .container-right {
-	padding-left: 1rem;
+	padding-left: 2rem;
 	margin-right: 1rem;
 	border-top: 2px solid #1b593c;
-	width: 67%;
+	width: 60%;
 }
 
 #skills {
@@ -109,14 +112,10 @@ body {
 	margin-bottom: 2rem;
 }
 
-.skills-list {
-	list-style-type: circle;
-	margin-left: 1rem;
-}
-
 .skills-item {
 	font-family: 'Lora', serif;
-	font-size: 1rem;
+	font-size: 1.25rem;
+	font-weight: bold;
 	padding: .25rem;
 	color: #262626;
 }
@@ -132,8 +131,13 @@ body {
 #references {
 	/* border: 1px solid green; */
 	width: 100%;
-	padding: 0 1rem;
+	padding-right: 1rem;
+	overflow-wrap: break-word;
 	/* margin-right: 1rem; */
+}
+
+.reference-container {
+	margin-bottom: 1rem;
 }
 
 .reference-container > p {
@@ -146,7 +150,7 @@ body {
 }
 
 .experience-container {
-	margin-bottom: .75rem;
+	margin-bottom: 1.55rem;
 }
 
 .experience-info {
@@ -161,12 +165,16 @@ body {
 .experience-item {
 	font-family: 'Lora', serif;
 	font-size: 1rem;
-	padding: .25rem;
+	margin: .75rem 0;
 	color: #262626;
 }
 
+#education {
+	margin-bottom: 3rem;
+}
+
 .education-container {
-	margin-bottom: .75rem;
+	margin-bottom: 1.5rem;
 }
 
 .education-info {

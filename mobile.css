@@ -77,14 +77,10 @@ body {
 	padding: 1rem;
 }
 
-.skills-list {
-	list-style-type: circle;
-	margin-left: 2rem;
-}
-
 .skills-item {
 	font-family: 'Lora', serif;
-	font-size: 1rem;
+	font-size: 1.25rem;
+	font-weight: bold;
 	padding: .25rem;
 	color: #262626;
 }
