@@ -1,0 +1,125 @@
+body {
+	background-color: #f4f4ec;
+	font-family: 'Vollkorn', serif;
+	color: #262626;
+	display: flex;
+	justify-content: center;
+}
+
+.resume-container {
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+	margin: 1rem;
+	width: 90vw;
+	/* border: 1px solid whitesmoke; */
+	max-width: 800px;
+}
+
+.resume-header {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+
+#name {
+	font-family: 'Lora', sans-serif;
+	font-weight: bold;
+	font-size: 4rem;
+	color: #1b593c;
+	width: 100%;
+	margin-top: 1rem;
+	z-index: 1;
+	/* border: 1px solid blue; */
+}
+
+#profile-img {
+	height: 12rem;
+	border-radius: 100%;
+	margin: 1rem 0;
+}
+
+.contact-info > p {
+	text-align: center;
+	line-height: 1.5;
+	font-weight: 700;
+}
+
+.profile-text {
+	margin: 1rem 1rem 0 1rem;
+	line-height: 1.25;
+}
+
+.section-title {
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	font-size: 1.75rem;
+	margin: 1rem 0;
+	color: #1b593c;
+}
+
+.content-title {
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	font-size: 1.25rem;
+	color: #262626;
+}
+
+.skills-list {
+	list-style-type: circle;
+	margin-left: 2rem;
+}
+
+.skills-item {
+	font-family: 'Lora', serif;
+	font-size: 1rem;
+	padding: .25rem;
+	color: #262626;
+}
+
+.reference-container {
+	margin-bottom: .75rem;
+}
+
+.job-title {
+	font-style: italic;
+}
+
+.content-title {
+	margin-bottom: .25rem;
+}
+
+.reference-container > p {
+	line-height: 1.25;
+}
+
+.experience-container {
+	margin-bottom: .75rem;
+}
+
+.experience-info {
+	font-style: italic;
+}
+
+.experience-list {
+	list-style-type: circle;
+	margin-left: 2rem;
+}
+
+.experience-item {
+	font-family: 'Lora', serif;
+	font-size: 1rem;
+	padding: .25rem;
+	color: #262626;
+}
+
+.education-container {
+	margin-bottom: .75rem;
+}
+
+.education-info {
+	font-style: italic;
+}
