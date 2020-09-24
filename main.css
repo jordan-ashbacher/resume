@@ -24,6 +24,7 @@ body {
 	justify-content: center;
 	text-align: center;
 	width: 100%;
+	margin-bottom: 1rem;
 }
 
 #name {
@@ -36,7 +37,7 @@ body {
 	z-index: 1;
 	position: relative;
 	top: 10px;
-	left: 30px;
+	left: 60px;
 	/* border: 1px solid blue; */
 }
 
@@ -46,7 +47,6 @@ body {
 	top: 20px;
 	height: 10rem;
 	border-radius: 100%;
-	margin: 1rem 0;
 }
 
 .contact-info > p {
@@ -62,7 +62,7 @@ body {
 
 #profile {
 	margin-bottom: 1rem;
-	padding: 1rem;
+	padding: 0 1.5rem;
 }
 
 .section-title {
